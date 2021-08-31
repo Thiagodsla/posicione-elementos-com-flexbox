@@ -17,6 +17,7 @@
     display: flex;
     flex-direction: column;
     flex-grow: 2;
+    padding-left: 20px;
 }
 
 .videoSobre-sobre-list {
@@ -25,7 +26,7 @@
 
 .videoSobre-video {
     flex-grow: 1;
-    flex-shrink: 3;
+    flex-shrink: 2;
 }
 
 .videoSobre-button {
@@ -123,5 +124,8 @@
     }
     .videoSobre-video {
         margin: 0 auto;
+    }
+    .videoSobre-sobre {
+        padding-left: 0px;
     }
 }
